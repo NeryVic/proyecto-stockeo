@@ -1,0 +1,39 @@
+
+.headerr {
+    padding: 30px;
+    background-color: #244242;
+    height: 30px;
+    color: #efeff5;
+}
+
+.nav {
+    width: 125px;
+    background-color: #244242;
+    position: absolute;
+    height: 100%;
+    padding: 0 30px;
+    transition: all 1s;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    margin-top: 50px; ;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #efeff5;
+    font-size: 20px;
+    display: block;
+    padding: 10px 15px;
+}
+
+ul li a:hover,
+ul li a.active {
+    background-color: #51bd9c;
+    color: #efeff5;
+}
